@@ -15,3 +15,10 @@
 //     assert.equal(typeof addUser, 'function');
 //   });
 // });
+const print = require('../src/js/print');
+
+describe('printName function', ()=>{
+  test('printName', ()=>{
+    expect(true).toBe(true);
+  });
+});
