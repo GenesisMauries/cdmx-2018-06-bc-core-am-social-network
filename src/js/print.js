@@ -6,6 +6,7 @@ window.onload = () => {
         <p class="postName">${newPost.val().creatorName}</p>
         <hr>
         <p>${newPost.val().text}</p>
+        <i class="far fa-edit"></i>
       </div>
     `;
     });
